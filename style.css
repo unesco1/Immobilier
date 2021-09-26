@@ -1,0 +1,267 @@
+body {
+    margin: 0    
+}
+
+.wall {
+    height: 300px;
+    background-color: rgb(25, 13, 46);
+}
+
+.earth {
+    height: 500px;
+    background-color: rgb(7, 1, 15);
+}
+img {
+    position: absolute;
+    transition: all 1s;
+}
+#sofa {
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.chair-r {
+    width: 350px;
+    left: 1050px;
+    top: 260px;
+    z-index: 3;
+}
+
+.chair-red {
+    width: 200px;
+    left: 257px;
+    top: 200px;
+    z-index: 1;
+}
+
+.chair-l {
+    width: 300px;
+    left: 150px;
+    top: 300px;
+    z-index: 4;
+}
+
+.table {
+    width: 550px;
+    z-index: 5;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -25%);
+}
+
+.vase-r {
+    width: 200px;
+    z-index: 6;
+    left: 900px;
+    top: 400px;
+}
+
+.vase-l {
+    width: 200px;
+    z-index: 6;
+    left: 400px;
+    top: 380px;
+}
+
+.lamp {
+    top: 0;
+    left: 50%;
+    z-index: 9;
+    transform: translate(-50%, 0%);
+}
+
+.flower {
+    width: 100px;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 7;
+}
+
+#cupboard {
+    width: 300px;
+    left: 300px;
+    top: 50px;
+}
+
+#little-cupboard {
+    width: 300px;
+    left: 600px;
+    top: 30px;
+}
+
+.hidden {
+    top: -400px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 15px;
+    box-shadow: 15px 5px 5px #000;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    bottom: 10px;
+}
+
+.show {
+    background-color: rgba(100, 100, 250, 0.8);
+    right: 10px;
+}
+
+.hide {
+    background-color: rgba(250, 100, 100, 0.8);
+    right: 130px;
+}
+
+.hide:hover {
+    background-color: rgba(250, 100, 100, 1);
+    box-shadow: 2px 2px 8px rgba(250, 100, 100, 1), -2px -2px 8px rgba(250, 100, 100, 1);
+}
+
+.show:hover {
+    background-color: rgba(100, 100, 250, 1);
+    box-shadow: 2px 2px 8px rgba(100, 100, 250, 1), -2px -2px 8px rgba(100, 100, 250, 1);
+}
+
+.turn-on {
+    background-color: rgba(250, 250, 100, 0.8);
+    left: 10px;
+}
+.turn-on:hover {
+    background-color: rgba(250, 250, 100, 1);
+    box-shadow: 2px 2px 8px rgba(250, 250, 100, 1), -2px -2px 8px rgba(250, 250, 100, 1);
+}
+
+.turn-off {
+    background-color: rgba(250, 250, 250, 0.8);
+    left: 130px;
+}
+.turn-off:hover {
+    background-color: rgba(250, 250, 250, 1);
+    box-shadow: 2px 2px 8px rgba(250, 250, 250, 1), -2px -2px 8px rgba(250, 250, 250, 1);
+}
+/******* ECLAIRAGE *********/
+
+.luminous {
+    width: 15px;
+    height: 31px;
+    top: 136px;
+    left: 521px;
+}
+
+.luminous-2 {
+    width: 15px;
+    height: 31px;
+    top: 241px;
+    left: 566px;
+}
+
+.luminous-3 {
+    width: 15px;
+    height: 31px;
+    top: 144px;
+    left: 597px;
+}
+
+.luminous-4 {
+    width: 19px;
+    height: 22px;
+    top: 91px;
+    left: 649px;
+}
+
+.luminous-5 {
+    width: 20px;
+    height: 41px;
+    top: 62px;
+    left: 699px;
+}
+
+.luminous-6 {
+    width: 28px;
+    height: 28px;
+    top: 110px;
+    left: 743px;
+}
+
+.luminous-7 {
+    width: 19px;
+    height: 22px;
+    top: 78px;
+    left: 799px;
+}
+
+.luminous-8 {
+    width: 28px;
+    height: 32px;
+    top: 131px;
+    left: 830px;
+}
+
+.luminous-9 {
+    width: 20px;
+    height: 47px;
+    top: 82px;
+    left: 893px;
+}
+
+.luminous-10 {
+    width: 16px;
+    height: 16px;
+    top: 86px;
+    left: 947px;
+}
+
+.luminous-11 {
+    width: 16px;
+    height: 33px;
+    top: 167px;
+    left: 972px;
+}
+
+.luminous-12 {
+    width: 17px;
+    height: 18px;
+    top: 119px;
+    left: 1005px;
+}
+
+.color-lum {
+    z-index: 10;
+    position: absolute;
+    background-color: yellow;
+    box-shadow: 5px 5px 25px yellow, 5px 5px 25px yellow;
+    border-radius: 50%;
+}
+
+.toggle-lamp {
+    display: none;
+}
+
+.toggle-wall {
+    background-color: rgb(250, 190, 137);
+}
+
+.toggle-earth {
+    background-color: rgb(167, 177, 142);
+}
+
+.get-alert {
+    color: red;
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    font-size: 50px;
+    transform: translate(-50%, -250%);
+    text-shadow: 2px 2px 10px rgba(250, 100, 100, 1);
+    display: none;
+}
